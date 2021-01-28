@@ -11,7 +11,7 @@
 9. Execute "docker-compose ps" // See the instance avaibles.
 10. Run "node index.js" // Execute the script for see if mssql avaible.
 11. Execute "docker exec -it sql-server-db "bash"" // For enter in the bash of the image.
-12. Execute "/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P super_duper_password" // For enter in the mssql console.
+12. Execute "/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P secret" // For enter in the mssql console.
 13. Execute "select name from sys.Databases;" "go" // For consulting the databases.
 14. Execute ".Databases" "go" // For see the databases avaible.
 15. Execute "create database testdb" "go" // For creating a database.
